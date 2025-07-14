@@ -60,18 +60,22 @@ The trained model is saved externally due to GitHub's 25MB limit.
 
 👉 [Download `telco_churn_pipeline.pkl`](https://drive.google.com/file/d/1dD6o8G4AEwF0oh4EJRtFFa8BaTGqQqdn/view?usp=sharing)
 
-After downloading:
+---
 
-python
+### 📦 How to Use the Trained Model
+
+After downloading the `.pkl` file:
+
+```python
 import joblib
 
- Load the model
+# Load the model
 model = joblib.load("telco_churn_pipeline.pkl")
 
- Predict new customer churn
- new_data must match the training schema
- prediction = model.predict(new_data)
-#📦 Requirements
+# Predict new customer churn
+# new_data must match the training schema
+prediction = model.predict(new_data)
+🧰 Requirements
 Python 3.7+
 
 pandas
@@ -80,10 +84,9 @@ scikit-learn
 
 joblib
 
-Install dependencies using:
+Install all dependencies using:
 
 pip install pandas scikit-learn joblib
-
-#🤝 Contributed by
+🤝 Contributed by
 Hamna Munir
 AI/ML Intern | July 2025
