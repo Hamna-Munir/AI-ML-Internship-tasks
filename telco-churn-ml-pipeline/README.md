@@ -9,8 +9,8 @@ This project is an end-to-end machine learning pipeline for predicting customer 
 | File                          | Description                                        |
 |-------------------------------|----------------------------------------------------|
 | `telco_churn_pipeline.ipynb`  | Full Google Colab notebook with pipeline code      |
-| `telco_churn_pipeline.pkl`    | 🔗 [Download Model from Google Drive](https://drive.google.com/file/d/1dD6o8G4AEwF0oh4EJRtFFa8BaTGqQqdn/view?usp=sharing) |
-| `telco_churn.csv`             | Dataset used for training |
+| `telco_churn_pipeline.pkl`    | 🔗 [Download from Google Drive](https://drive.google.com/file/d/1dD6o8G4AEwF0oh4EJRtFFa8BaTGqQqdn/view?usp=sharing) |
+| `telco_churn.csv`             | Cleaned dataset used for training (from Kaggle)    |
 
 ---
 
@@ -48,7 +48,7 @@ This project is an end-to-end machine learning pipeline for predicting customer 
 ## 🚀 How to Run the Project in Google Colab
 
 1. Open the notebook: `telco_churn_pipeline.ipynb`
-2. Upload the dataset: `WA_Fn-UseC_-Telco-Customer-Churn.csv`
+2. Upload the dataset: `telco_churn.csv`
 3. Run all cells
 4. Download or load the saved model as shown below
 
@@ -62,16 +62,16 @@ The trained model is saved externally due to GitHub's 25MB limit.
 
 After downloading:
 
-```python
+python
 import joblib
 
-# Load the model
+ Load the model
 model = joblib.load("telco_churn_pipeline.pkl")
 
-# Predict new customer churn
-# new_data must match the training schema
-# prediction = model.predict(new_data)
-📦 Requirements
+ Predict new customer churn
+ new_data must match the training schema
+ prediction = model.predict(new_data)
+#📦 Requirements
 Python 3.7+
 
 pandas
@@ -80,12 +80,10 @@ scikit-learn
 
 joblib
 
-You can install dependencies using:
+Install dependencies using:
 
-bash
-Copy
-Edit
 pip install pandas scikit-learn joblib
-🤝 Contributed by
+
+#🤝 Contributed by
 Hamna Munir
 AI/ML Intern | July 2025
