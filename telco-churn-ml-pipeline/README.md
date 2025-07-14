@@ -10,7 +10,7 @@ This project is an end-to-end machine learning pipeline for predicting customer 
 |-------------------------------|----------------------------------------------------|
 | `telco_churn_pipeline.ipynb`  | Full Google Colab notebook with pipeline code      |
 | `telco_churn_pipeline.pkl`    | 🔗 [Download Model from Google Drive](https://drive.google.com/file/d/1dD6o8G4AEwF0oh4EJRtFFa8BaTGqQqdn/view?usp=sharing) |
-| `WA_Fn-UseC_-Telco-Customer-Churn.csv` *(optional)* | Dataset used for training |
+| `telco_churn.csv`             | Dataset used for training |
 
 ---
 
