@@ -87,6 +87,7 @@ joblib
 Install all dependencies using:
 
 pip install pandas scikit-learn joblib
+
 🤝 Contributed by
 Hamna Munir
 AI/ML Intern | July 2025
